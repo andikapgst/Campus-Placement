@@ -5,6 +5,7 @@ import streamlit as st
 model = pickle.load(open('model.pkl', 'rb'))
 
 # Judul web
+st.set_page_config(page_title='Prediksi Penempatan Kerja', page_icon='https://undira.ac.id/assets/image/icon_undira_warna.png')
 st.title('Prediksi Penempatan Kerja')
 st.write('')
 
